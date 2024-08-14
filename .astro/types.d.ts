@@ -143,7 +143,7 @@ declare module 'astro:content' {
   slug: "04-astro-sphere-writing-markdown";
   body: string;
   collection: "blog";
-  data: any
+  data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
 "legal": {
@@ -152,14 +152,14 @@ declare module 'astro:content' {
   slug: "privacy";
   body: string;
   collection: "legal";
-  data: any
+  data: InferEntrySchema<"legal">
 } & { render(): Render[".md"] };
 "terms.md": {
 	id: "terms.md";
   slug: "terms";
   body: string;
   collection: "legal";
-  data: any
+  data: InferEntrySchema<"legal">
 } & { render(): Render[".md"] };
 };
 "projects": {
@@ -168,7 +168,7 @@ declare module 'astro:content' {
   slug: "project-3";
   body: string;
   collection: "projects";
-  data: any
+  data: InferEntrySchema<"projects">
 } & { render(): Render[".md"] };
 };
 "work": {
@@ -177,35 +177,35 @@ declare module 'astro:content' {
   slug: "cyberclick";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "enzyme.md": {
 	id: "enzyme.md";
   slug: "enzyme";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "eviano.md": {
 	id: "eviano.md";
   slug: "eviano";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "housfy.md": {
 	id: "housfy.md";
   slug: "housfy";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "ikea.md": {
 	id: "ikea.md";
   slug: "ikea";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 };
 
@@ -217,5 +217,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("../src/content/config.js");
 }
