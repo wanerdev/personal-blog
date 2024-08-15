@@ -1,10 +1,14 @@
-# Maximizing the Potential of Software Development with Domain-Driven Design and Hexagonal Architecture
-
-**Summary:** A deep dive into how combining Domain-Driven Design with Hexagonal Architecture can transform software development, providing a robust framework to handle complexities and promote sustainable growth.
-
-**Date:** August 15, 2024
-
-**Tags:** Tutorial, DDD, Hexagonal Architecture, Software Engineering, Best Practices
+---
+title: "Maximizing the Potential of Software Development with Domain-Driven Design and Hexagonal Architecture"
+summary: "A deep dive into how combining Domain-Driven Design with Hexagonal Architecture can transform software development, providing a robust framework to handle complexities and promote sustainable growth."
+date: "Aug 15 2024"
+draft: false
+tags:
+- Tutorial
+- DDD
+- Hexagonal Architecture
+- Best Practices
+---
 
 ## Introduction to Domain-Driven Design (DDD)
 
