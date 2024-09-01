@@ -1,7 +1,7 @@
 ---
 title: "Maximizando el Potencial del Desarrollo de Software con Diseño Orientado al Dominio y Arquitectura Hexagonal"  
 summary: "Una exploración profunda de cómo la combinación del Diseño Orientado al Dominio con la Arquitectura Hexagonal puede transformar el desarrollo de software, proporcionando un marco robusto para manejar complejidades y promover un crecimiento sostenible."  
-date: "15 de agosto de 2024"  
+date: "Aug 15 2024"  
 draft: false  
 tags:  
 - Tutorial  
