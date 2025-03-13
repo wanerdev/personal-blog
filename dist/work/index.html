@@ -13,28 +13,82 @@
 
   document.addEventListener("astro:after-swap", initializeDrawerButton)
   initializeDrawerButton()
-</script> <div id="drawer" class="fixed inset-0 h-0 z-40 overflow-hidden flex flex-col items-center justify-center md:hidden bg-neutral-100 dark:bg-neutral-900 transition-[height] duration-300 ease-in-out" data-astro-cid-hxtyo74s> <nav class="flex flex-col items-center space-y-2" data-astro-cid-hxtyo74s> <a href="/" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Home </a><a href="/work" class="flex items-center justify-center px-3 py-1 rounded-full hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out pointer-events-none bg-black dark:bg-white text-white dark:text-black" data-astro-cid-hxtyo74s> Work </a><a href="/blog" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Blog </a><a href="/projects" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Projects </a> </nav> <div class="flex gap-1 mt-5" data-astro-cid-hxtyo74s> <a href="/search" aria-label="Search blog posts and projects on Waner Kevin" class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> <svg class="size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#search" data-astro-cid-hxtyo74s></use> </svg> </a> <!--<a href="/rss.xml" target="_blank" aria-label={`Rss feed for ${SITE.TITLE}`} class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out">--> <!--  <svg class="size-full">--> <!--    <use href="/ui.svg#rss"></use>--> <!--  </svg>--> <!--</a>--> <button id="drawer-theme-button" aria-label="Toggle light and dark theme" class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> <svg class="block dark:hidden size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#sun" data-astro-cid-hxtyo74s></use> </svg> <svg class="hidden dark:block size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#moon" data-astro-cid-hxtyo74s></use> </svg> </button> </div> </div>  <main>  <div class="pt-36 pb-5"> <div class="w-full h-full mx-auto px-5 max-w-screen-md">   <div class="animate page-heading"> Work </div>   </div> </div> <div class="flex-1 py-5"> <div class="w-full h-full mx-auto px-5 max-w-screen-md">   <ul> <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Nov 2022 - Now </div> <div class="text-black dark:text-white font-semibold"> Eviano </div> <div class="text-sm font-semibold"> Full Stack Developer </div> <article class="prose dark:prose-invert"> <p>As a Backend Developer specializing in PHP,
+</script> <div id="drawer" class="fixed inset-0 h-0 z-40 overflow-hidden flex flex-col items-center justify-center md:hidden bg-neutral-100 dark:bg-neutral-900 transition-[height] duration-300 ease-in-out" data-astro-cid-hxtyo74s> <nav class="flex flex-col items-center space-y-2" data-astro-cid-hxtyo74s> <a href="/" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Home </a><a href="/work" class="flex items-center justify-center px-3 py-1 rounded-full hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out pointer-events-none bg-black dark:bg-white text-white dark:text-black" data-astro-cid-hxtyo74s> Work </a><a href="/blog" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Blog </a><a href="/projects" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Projects </a> </nav> <div class="flex gap-1 mt-5" data-astro-cid-hxtyo74s> <a href="/search" aria-label="Search blog posts and projects on Waner Kevin" class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> <svg class="size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#search" data-astro-cid-hxtyo74s></use> </svg> </a> <!--<a href="/rss.xml" target="_blank" aria-label={`Rss feed for ${SITE.TITLE}`} class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out">--> <!--  <svg class="size-full">--> <!--    <use href="/ui.svg#rss"></use>--> <!--  </svg>--> <!--</a>--> <button id="drawer-theme-button" aria-label="Toggle light and dark theme" class="size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> <svg class="block dark:hidden size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#sun" data-astro-cid-hxtyo74s></use> </svg> <svg class="hidden dark:block size-full" data-astro-cid-hxtyo74s> <use href="/ui.svg#moon" data-astro-cid-hxtyo74s></use> </svg> </button> </div> </div>  <main>  <div class="pt-36 pb-5"> <div class="w-full h-full mx-auto px-5 max-w-screen-md">   <div class="animate page-heading"> Work </div>   </div> </div> <div class="flex-1 py-5"> <div class="w-full h-full mx-auto px-5 max-w-screen-md">   <ul> <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Jul 2024 - now </div> <div class="text-black dark:text-white font-semibold"> Setting Consultoria (Hospital Dexeus Mujer) </div> <div class="text-sm font-semibold"> Full-Stack Developer | PHP | Laravel | Angular Js  </div> <article class="prose dark:prose-invert"> <p>Hospital Dexeus Mujer : Supporting the technological team in the implementation of innovative solutions. My main responsibilities included:</p>
+<ul>
+<li>
+<p>Development and integration of systems to optimise internal processes.</p>
+</li>
+<li>
+<p>Design and management of databases, ensuring the integrity and availability of information.</p>
+</li>
+<li>
+<p>New developments adapted to the hospital’s needs.</p>
+</li>
+<li>
+<p>Maintenance and improvement of existing applications, ensuring efficient performance.</p>
+</li>
+<li>
+<p>Dynamic and multidisciplinary environment, contributing to the digitisation and improvement of the hospital’s technological services.</p>
+</li>
+</ul> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Nov 2022 - Jul 2024 </div> <div class="text-black dark:text-white font-semibold"> Eviano </div> <div class="text-sm font-semibold"> Full Stack Developer | PHP | Laravel | Angular Js </div> <article class="prose dark:prose-invert"> <p>As a Backend Developer specializing in PHP,
 I worked extensively with CodeIgniter, Laravel, and Symfony to build and maintain robust backend systems.
 I also collaborated on front-end development using Angular, incorporating AB testing to optimize user experience and engagement.
 My role involved implementing unit testing for backend services to ensure code quality and reliability.
-This experience allowed me to integrate diverse technologies effectively, enhancing both the functionality and performance of the applications.</p> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Mar 2022 - Aug 2022 </div> <div class="text-black dark:text-white font-semibold"> Housfy </div> <div class="text-sm font-semibold"> Full Stack Developer </div> <article class="prose dark:prose-invert"> <p>As a Full Stack Developer specializing in PHP, I played a key role in developing and maintaining APIs, which were crucial for delivering efficient and reliable backend services.
+This experience allowed me to integrate diverse technologies effectively, enhancing both the functionality and performance of the applications.</p>
+<ul>
+<li>Maintenance and improvement of existing APIs, ensuring stability and performance.</li>
+<li>Back-end development with CodeIgniter, Laravel and Symfony to optimise technical processes.</li>
+<li>Front-end implementation with Angular, adapted to specific needs.</li>
+<li>Database management, ensuring data integrity and availability.</li>
+</ul> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Mar 2022 - Aug 2022 </div> <div class="text-black dark:text-white font-semibold"> Housfy </div> <div class="text-sm font-semibold"> Full-Stack Developer | PHP | Laravel | VueJs </div> <article class="prose dark:prose-invert"> <p>As a Full Stack Developer specializing in PHP, I played a key role in developing and maintaining APIs, which were crucial for delivering efficient and reliable backend services.
 I employed Domain-Driven Design (DDD) with a hexagonal architecture to ensure the system’s modularity and adaptability, making it easier to manage and scale. Additionally,
 I integrated unit testing into the development process to maintain high standards of code quality and reliability. This approach not only streamlined the development workflow but also contributed to the stability and performance of the applications.</p>
 <ul>
-<li>Developing and maintaining APIs to deliver robust and efficient backend services.</li>
-<li>Applying Domain-Driven Design with a hexagonal architecture to enhance system modularity and flexibility.</li>
-<li>Implementing unit tests to ensure high code quality and reliability</li>
-</ul> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Jun 2021 - Mar 2022 </div> <div class="text-black dark:text-white font-semibold"> Cyberclick </div> <div class="text-sm font-semibold"> Full Stack Developer </div> <article class="prose dark:prose-invert"> <p>As a full-stack developer in a digital marketing company,
+<li>
+<p>Design and development of robust APIs with Laravel, following DDD and Hexagonal Architecture.</p>
+</li>
+<li>
+<p>Implementation and consumption of third party APIs, optimizing external integrations.</p>
+</li>
+<li>
+<p>Writing unit tests to ensure code quality and reliability.</p>
+</li>
+<li>
+<p>Database management, ensuring performance and consistency of information.</p>
+</li>
+<li>
+<p>Maintenance and refactoring of existing code, along with new implementations adapted to specific requirements.</p>
+</li>
+</ul> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Jun 2021 - Mar 2022 </div> <div class="text-black dark:text-white font-semibold"> Cyberclick </div> <div class="text-sm font-semibold"> Full-Stack Developer | PHP | Symfony | Google Analytics  </div> <article class="prose dark:prose-invert"> <p>As a full-stack developer in a digital marketing company,
 I developed and maintained websites, ensuring they were optimized for performance and user experience.
 I implemented tracking pixels and integrated various analytics tools to monitor and enhance website performance.
 My role involved working closely with the marketing team to align digital strategies with technical solutions,
 driving data-driven decisions and improving overall campaign effectiveness.</p>
 <ul>
 <li>
-<p>Developed and maintained websites optimized for performance and user experience.</p>
+<p>Development and maintenance of PHP applications with Symfony and Laravel, applying principles of DDD (Domain-Driven Design) and Hexagonal Architecture for scalable solutions.</p>
 </li>
 <li>
-<p>Implemented tracking pixels and integrated analytics tools to enhance website performance.</p>
+<p>Creation and optimisation of RESTful APIs, ensuring efficient integrations with third parties and internal services.</p>
+</li>
+<li>
+<p>Implementation and configuration of Jenkins for continuous integration and delivery (CI/CD).
+Use of Jira for agile planning and task tracking in the development cycle.</p>
+</li>
+<li>
+<p>Code review and maintenance to improve performance, security and readability.</p>
+</li>
+<li>
+<p>Verification and monitoring of tracking pixels in Google Analytics and Meta Analytics, ensuring correct data collection.</p>
+</li>
+<li>
+<p>Data analysis and campaign optimisation by interpreting key metrics in digital marketing platforms.</p>
+</li>
+<li>
+<p>Writing unit and integration tests to ensure code reliability and stability.</p>
+</li>
+<li>
+<p>Database management and optimisation, ensuring performance and data consistency.</p>
 </li>
 </ul> </article> </li><li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none"> <div class="text-sm uppercase mb-4"> Jun 2021 - Jun 2021 </div> <div class="text-black dark:text-white font-semibold"> Enzyme Advising Group </div> <div class="text-sm font-semibold"> Intership Developer </div> <article class="prose dark:prose-invert"> <p>During my internship as a developer,
 I provided support by addressing tickets, managing databases, and programming solutions to improve processes.
@@ -60,7 +114,7 @@ Terms
 <a href="/legal/privacy" class="text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out">
 Privacy
 </a> </div> <div class="text-sm mt-2">
-&copy; 2024 | All rights reserved
+&copy; 2025 | All rights reserved
 </div> </div> <div class="order-1 sm:order-2 flex justify-center sm:justify-end"> <div class="flex flex-wrap gap-1 items-center justify-center"> <a href="mailto:wanerdev@gmail.com" target="_blank" aria-label="Waner Kevin on Email" class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend"> <svg class="size-full fill-current group-hover:fill-black group-hover:dark:fill-white blend"> <use href="/social.svg#email"></use> </svg> </a><a href="https://github.com/wanerdev" target="_blank" aria-label="Waner Kevin on Github" class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend"> <svg class="size-full fill-current group-hover:fill-black group-hover:dark:fill-white blend"> <use href="/social.svg#github"></use> </svg> </a><a href="https://www.linkedin.com/in/wanerkevin/" target="_blank" aria-label="Waner Kevin on LinkedIn" class="group size-10 rounded-full p-2 items-center justify-center hover:bg-black/5 dark:hover:bg-white/20  blend"> <svg class="size-full fill-current group-hover:fill-black group-hover:dark:fill-white blend"> <use href="/social.svg#linkedin"></use> </svg> </a> </div> </div> </div>  </div> </section> </div> </footer> <script>
   function goBackToTop(event) {
     event.preventDefault()
