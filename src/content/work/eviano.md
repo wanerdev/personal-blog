@@ -1,8 +1,8 @@
 ---
 company: "Eviano"
-role: "Full Stack Developer"
+role: "Full Stack Developer | PHP | Laravel | Angular Js"
 dateStart: "11/01/2022"
-dateEnd: "Now"
+dateEnd: "07/14/2024"
 ---
 
 As a Backend Developer specializing in PHP, 
@@ -10,3 +10,8 @@ I worked extensively with CodeIgniter, Laravel, and Symfony to build and maintai
 I also collaborated on front-end development using Angular, incorporating AB testing to optimize user experience and engagement. 
 My role involved implementing unit testing for backend services to ensure code quality and reliability. 
 This experience allowed me to integrate diverse technologies effectively, enhancing both the functionality and performance of the applications.
+
+- Maintenance and improvement of existing APIs, ensuring stability and performance.
+- Back-end development with CodeIgniter, Laravel and Symfony to optimise technical processes.
+- Front-end implementation with Angular, adapted to specific needs.
+- Database management, ensuring data integrity and availability.
